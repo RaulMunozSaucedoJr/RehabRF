@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========== Bootstrap CSS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="/Assets/SCSS/Estilos.css">
+    <!--========== FONTS ==========-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <!--========== BOX ICONS ==========-->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!--========== AOS ================-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ICONO TAB NAVEGADOR -->
+    <link rel="shortcut icon" href="/Assets/ICON/Logo.jpg" />
+
+    <title>Rehabilitación Funcional - RF</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="navbar">
+        <a class="navbar-brand" href="/Rehab.php">
+            <img src="/Assets/ICON/Logo.jpg" class="navbar__Logo d-inline-block align-top img-fluid" alt="Logo Navbar">
+            Rehab-RF
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar__collapse collapse navbar-collapse align-items-center" id="navbarNav">
+            <ul class="navbar__navbar-nav navbar-nav text-center align-items-center">
+                <li class="navbar__nav-item nav-item ml-5">
+                    <a class="nav-link" href="#Nosotros">Nosotros</a>
+                </li>
+                <li class="navbar__nav-item nav-item ml-5">
+                    <a class="nav-link" href="#Servicios">Servicios</a>
+                </li>
+                <li class="navbar__nav-item nav-item ml-5">
+                    <a class="nav-link" href="#Contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="mb-nav fixed-bottom">
+        <div class="mb-move-item"></div>
+        <div class="mb-nav-item active">
+            <a href="#Nosotros">
+                <i class='bx bxs-wink-smile'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#Servicios">
+                <i class='bx bxs-food-menu'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#Contacto">
+                <i class='bx bxs-comment-detail'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a id="scroll-top" href="#Nosotros">
+                <i class="bx bxs-to-top"></i>
+            </a>
+        </div>
+    </div>
+
+    <section class="section pt-5 mb-5" id="Nosotros">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h1 class="section__Titulo">
+                        <strong>
+                            Nosotros
+                        </strong>
+                    </h1>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-5 mb-5">
+                    <p class="section__Parrafo">
+                        En <strong>REHAB</strong> somos un equipo multidisciplinario con el objetivo
+                        de mejorar la calidad de vida de nuestros pacientes, eliminar su dolor y
+                        evitar la aparición del mismo.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-5 mb-5" data-aos="fade-left"
+                    data-aos-duration="1000">
+                    <img src="/Assets/SVG/SeccionNosotros.svg" class="section__Imagen__Nosotros img-fluid"
+                        alt="Imagen Nosotros">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section pt-5 mb-5" id="Servicios">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h1 class="section__Titulo">
+                        <strong>
+                            Servicios
+                        </strong>
+                    </h1>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-* col-lg-4 col-xl-4 pt-5 mb-5" data-aos="fade-right"
+                    data-aos-duration="1000">
+                    <div class="section__card card">
+                        <img src="/Assets/SVG/Servicio1.svg" class="section__Imagen__Carta img-fluid"
+                            alt="Imagen Servicio 1">
+                        <div class="section__card__body card-body pb-5 mb-5">
+                            <h5 class="section__card__title card-title">Medicina del Deporte</h5>
+                            <p class="section__card_parrafo card-text">Some quick example text to build on the card
+                                title
+                                and make up the bulk of
+                                the card's content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-* col-lg-4 col-xl-4 pt-5 mb-5" data-aos="fade-up"
+                    data-aos-duration="1000">
+                    <div class="section__card card">
+                        <img src="/Assets/SVG/Servicio2.svg" class="section__Imagen__Carta img-fluid"
+                            alt="Imagen Servicio 2">
+                        <div class="section__card__body card-body pb-5 mb-5">
+                            <h5 class="section__card__title card-title">Fisioterapia Ortopédica</h5>
+                            <p class="section__card_parrafo card-text">Some quick example text to build on the card
+                                title
+                                and make up the bulk of
+                                the card's content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-* col-lg-4 col-xl-4 pt-5 pb-5 mb-5" data-aos="fade-left"
+                    data-aos-duration="1000">
+                    <div class="section__card card">
+                        <img src="/Assets/SVG/Servicio3.svg" class="section__Imagen__Carta" alt="Imagen Servicio 3">
+                        <div class="section__card__body card-body pb-5 mb-5">
+                            <h5 class="section__card__title card-title">Fisioterapia Deportiva</h5>
+                            <p class="section__card_parrafo card-text">Some quick example text to build on the card
+                                title
+                                and make up the bulk of
+                                the card's content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--<section class="section pt-5 mb-5" id="Testimonios">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h1 class="section__Titulo">
+                        <strong>
+                            Testimonios
+                        </strong>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <section class="section pt-5 mb-5" id="Contacto">
+        <div class="container" id="DireccionTelefonos">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h1 class="section__Titulo">
+                        <strong>
+                            Contacto
+                        </strong>
+                    </h1>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 pt-5 mb-5" id="ImagenContacto1">
+                    <img src="/Assets/SVG/Direccion.svg" class="section__Imagen__Contacto img-fluid"
+                        alt="Imagen Nosotros">
+                </div>
+
+                <div class="section__DireccionTelefonos col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 pt-5 mb-5">
+                    <h1 class="section__Contacto pt-5 mb-2">
+                        Dirección & Teléfonos
+                    </h1>
+                    <p class="section__Parrafo__Contacto text-center pt-3 mb-3">
+                        <i class='section__Iconos__Contacto bx bx-map'></i>
+                        <a
+                            href="https://www.google.com.mx/maps/place/RED+COFFEE+MX/@19.4709414,-99.1165531,13z/data=!4m9!1m2!2m1!1sred!3m5!1s0x0:0xc40158625aa525cf!8m2!3d19.4582797!4d-99.0960494!15sCgNyZWRaCgoDcmVkIgNyZWSSAQpyZXN0YXVyYW50">
+                            Av. 555 No. 555 U.H. Mesopotamia. Miguel Hidalgo. C.P. 05555
+                        </a>
+                    </p>
+                    <p class="section__Parrafo__Contacto text-center pt-3 mb-3">
+                        <i class='section__Iconos__Contacto bx bx-mail-send'></i>
+                        <a href="mailto:correofalso@gmail.com">
+                            correofalso@gmail.com
+                        </a>
+                    </p>
+                    <p class="section__Parrafo__Contacto text-center pt-3 mb-3">
+                        <i class='section__Iconos__Contacto bx bx-phone'></i>
+                        <a href="tel:+5555555555">
+                            55-5555-5555
+                        </a>
+                    </p>
+                </div>
+
+                <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 pt-5 mb-5" id="ImagenContacto2">
+                    <img src="/Assets/SVG/Telefonos.svg" class="section__Imagen__Contacto img-fluid"
+                        alt="Imagen Contacto">
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pt-5 mb-5">
+                    <div class="row">
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <h1 class="section__Titulo pt-5 mb-5">
+                                Contacto Directo
+                            </h1>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" id="ImagenContacto3"
+                            data-aos="fade-down" data-aos-duration="1000">
+                            <img src="/Assets/SVG/Formulario.svg" class="section__Imagen__Nosotros img-fluid"
+                                alt="Imagen Contacto">
+                        </div>
+
+                        <div class="section__Formulario col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" id="formulario">
+                            <form method="POST" class="formulario needs-validation" data-netlify-recaptcha="true"
+                                action="/Gracias.html" id="formulario" type="hidden" name="formulario" netlify
+                                novalidate>
+                                <div class="form-row">
+
+                                    <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pt-2 mb-1">
+                                        <label for="Email4">Nombre Completo</label>
+                                        <input type="text" class="form-control" id="nombre"
+                                            placeholder="Nombre Completo">
+                                    </div>
+
+                                    <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pt-2 mb-1">
+                                        <label for="Password4">Correo Electrónico</label>
+                                        <input type="email" class="form-control" id="correo"
+                                            placeholder="Correo Electrónico">
+                                    </div>
+
+                                    <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pt-2 mb-1">
+                                        <label for="Password4">Teléfono</label>
+                                        <input type="tel" class="form-control" id="telefono"
+                                            placeholder="Numero Telefónico">
+                                    </div>
+                                    <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pt-2 mb-1">
+                                        <label for="Password4">Motivo de su Mensaje</label>
+                                        <input type="text" class="form-control" id="motivo"
+                                            placeholder="Motivo de su mensaje">
+                                    </div>
+
+                                    <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pt-2 mb-1">
+                                        <div class=" d-flex justify-content-center" data-netlify-recaptcha="true"></div>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-2 mb-3">
+                                        <button type="submit"
+                                            class="section__Boton__Servicios btn btn-outline-* btn-sm pt-2 pb-2"
+                                            id="Enviar">
+                                            Contactenos
+                                            <i class='section__Iconos__Botones bx bx-mail-send'></i>
+                                        </button>
+                                    </div>
+
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-2 mb-3">
+                                        <button type="reset"
+                                            class="section__Boton__Servicios btn btn-outline-* btn-sm pt-2 pb-2"
+                                            id="Enviar">
+                                            Borrar
+                                            <i class='section__Iconos__Botones bx bx-eraser'></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="footer pt-5 mb-5" id="Contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <h1 class="section__Contacto">
+                        Secciones
+                    </h1>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                            <p class="footer__Parrrafo text-center">
+                                <i class='footer__Iconos bx bx-bot'></i>
+                                <a href="#Nosotros">
+                                    Nosotros
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                            <p class="footer__Parrrafo text-center">
+                                <i class='footer__Iconos bx bx-food-menu'></i>
+                                <a href="#Servicios">
+                                    Servicios
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                            <p class="footer__Parrrafo text-center">
+                                <i class='footer__Iconos bx bxs-contact'></i>
+                                <a href="#Contacto">
+                                    Contacto
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <h1 class="section__Contacto">
+                        Desarrollador
+                    </h1>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <p class="footer__Parrrafo text-center">
+                                <i class='footer__Iconos bx bx-mail-send'></i>
+                                <a href="mailto:raulmunozsaucedo@hotmail.com">
+                                    Email
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <p class="footer__Parrrafo text-center">
+                                <i class='footer__Iconos bx bx-mail-send'></i>
+                                <a href="tel:+5545222062">
+                                    Teléfono
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <p class="footer__Parrrafo text-center">
+                                <i class='footer__Iconos bx bx-world'></i>
+                                <a href="https://developbear.netlify.app/">
+                                    Sitio Web
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <p class="footer__Parrrafo text-center">
+                                <i class='footer__Iconos bx bxl-linkedin'></i>
+                                <a
+                                    href="https://www.linkedin.com/in/ra%C3%BAl-jasiel-uriel-mu%C3%B1oz-saucedo-989b419a/">
+                                    Linkedin
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+        integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+        crossorigin="anonymous"></script>
+    <script src="/Assets/JS/App.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+</body>
+
+</html>
