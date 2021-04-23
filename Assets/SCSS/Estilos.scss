@@ -1,6 +1,7 @@
 :root {
     --Principal: #0B3C5D;
     --Secundario: #1D2731;
+    --Precaucion: #FFC72C;
     --Incorrecto: #BE2F29;
     --Fondo: #F4F4F4;
     --FuentePrincipal: 'Montserrat', sans-serif;
@@ -39,6 +40,20 @@
     background: var(--Principal);
 }
 
+
+
+html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background: var(--Fondo);
+}
+
 textarea,
 input[type="text"],
 input[type="email"],
@@ -56,16 +71,8 @@ textarea[type="text"] {
     }
 }
 
-html {
-    scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased;
-}
-
-body {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    background: var(--Fondo);
+img {
+    pointer-events: none;
 }
 
 a,
@@ -93,9 +100,37 @@ label {
     text-align: left;
 }
 
-.Incorrecto {
-    border: var(--Incorrecto) solid;
+b{
+    color:var(--Incorrecto);
 }
+
+#Mensaje__Salud {
+    background: var(--Fondo);
+    border: var(--Precaucion) solid 0.5em;
+    border-radius: 2em;
+}
+
+.negro {
+    font-family: var(--FuentePrincipal);
+    font-size: var(--Mediana);
+    color: var(--Secundario);
+    text-transform: none;
+    text-align: center;
+}
+
+.negroo {
+    font-family: var(--FuentePrincipal);
+    font-size: var(--ChicaChica);
+    color: var(--Secundario);
+    text-align: center;
+}
+
+/*.rotar {
+    writing-mode: vertical-lr;
+    text-align: center;
+    line-height: .9;
+    transform: rotate(180deg);
+}*/
 
 
 
@@ -321,9 +356,9 @@ label {
 
     &__Imagen__Carta {
         width: 100%;
-        height: 0 auto;
+        height: 50vh;
+        border-radius: 1.8em;
         object-fit: cover;
-        border-radius: 2.5em;
     }
 
     &__Boton__Servicios {
@@ -376,6 +411,12 @@ label {
         text-decoration: none;
     }
 
+    &__Descargar__Listado {
+        font-size: var(--ChicaChica);
+        color: var(--Principal);
+        text-decoration: none;
+    }
+
     &__Iconos__Boton__Enviar {
         font-size: var(--Mediana);
         color: var(--Principal);
@@ -396,14 +437,6 @@ label {
 
     }
 
-    #DireccionTelefonos {
-        width: 100%;
-        height: auto;
-        background-image: url(/Assets/SVG/Fondo.svg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
 }
 
 /** ======================= **/
@@ -417,17 +450,32 @@ label {
     border-right: transparent;
     border-bottom: transparent;
 
-    &__Parrrafo {
-        font-family: var(--FuentePrincipal);
+
+    &__Info__Dev {
         font-size: var(--Mediana);
-        color: var(--Secundario);
-        text-align: center;
+        font-family: var(--FuentePrincipal);
+        text-transform: uppercase;
         text-decoration: none;
-        text-emphasis: none;
+    }
+
+    &__Titulo {
+        font-size: var(--ChicaChica);
+        font-family: var(--FuenteSecundaria);
+        color: var(--Secundario);
+    }
+
+    &__Parrafos {
+        font-size: var(--Chica);
+        font-family: var(--FuenteSecundaria);
+        color: var(--Secundario);
     }
 
     &__Iconos {
-        font-size: var(--Chica);
+        font-size: var(--ChicaChica);
+        font-family: var(--FuenteSecundaria);
         color: var(--Secundario);
     }
+
 }
+
+@media (prefers-color-scheme: dark) {}
