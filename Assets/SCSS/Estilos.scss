@@ -476,5 +476,17 @@ b {
     }
 
 }
+.icono__home{
+    color: var(--Fondo);
+}
+#Gracias {
+    width: 100%;
+    height: auto;
+    background-color: var(--Principal);
+    font-family: var(--FuentePrincipal);
+    font-size: var(--Mediana);
+    color: var(--Fondo);
+    border-radius: 2rem;
+}
 
 @media (prefers-color-scheme: dark) {}

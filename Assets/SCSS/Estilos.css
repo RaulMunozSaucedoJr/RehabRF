@@ -478,4 +478,18 @@ b {
   font-family: var(--FuenteSecundaria);
   color: var(--Secundario);
 }
+
+.icono__home {
+  color: var(--Fondo);
+}
+
+#Gracias {
+  width: 100%;
+  height: auto;
+  background-color: var(--Principal);
+  font-family: var(--FuentePrincipal);
+  font-size: var(--Mediana);
+  color: var(--Fondo);
+  border-radius: 2rem;
+}
 /*# sourceMappingURL=Estilos.css.map */
