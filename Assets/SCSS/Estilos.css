@@ -376,7 +376,7 @@ b {
 
 .section__card__title {
   font-family: var(--FuentePrincipal);
-  font-size: var(--Chica);
+  font-size: var(--Mediana);
   color: var(--Principal);
   text-align: center;
   text-decoration: none;
