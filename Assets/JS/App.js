@@ -6,7 +6,7 @@
             swal({
                 icon: "warning",
                 title: "Estimado paciente",
-                text: "Se le recuerda que para ser acreedor del servicio es necesario cumplir con los protocólos de sanidad impuestos por la Secretaría de Salud Pública.",
+                text: "Se le recuerda que para ser acreedor del servicio es necesario cumplir con los protocólos de salubridad impuestos por la Secretaría de Salud Pública.",
                 timer: 8000,
                 button: false,
                 closeOnClickOutside: false,
@@ -16,7 +16,7 @@
             swal({
                 icon: "warning",
                 title: "Estimado paciente",
-                text: "Se le recuerda que para ser acreedor del servicio es necesario cumplir con los protocólos de sanidad impuestos por la Secretaría de Salud Pública.",
+                text: "Se le recuerda que para ser acreedor del servicio es necesario cumplir con los protocólos de salubridad impuestos por la Secretaría de Salud Pública.",
                 timer: 8000,
                 button: false,
                 closeOnClickOutside: false,
