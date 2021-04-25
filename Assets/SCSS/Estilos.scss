@@ -114,6 +114,12 @@ b {
     background-color: var(--Fondo);
 }
 
+.swal-overlay {
+    font-family: var(--FuentePrincipal);
+    font-size: var(--Chica);
+    color: var(--Secundario);
+    text-align: center;
+}
 
 
 .swal-modal .swal-text {
