@@ -309,7 +309,7 @@ b {
   }
   __card__title {
     font-family: var(--FuentePrincipal);
-    font-size: var(--Chica);
+    font-size: var(--ExtraChica);
     color: var(--Principal);
     text-align: center;
     text-decoration: none;
