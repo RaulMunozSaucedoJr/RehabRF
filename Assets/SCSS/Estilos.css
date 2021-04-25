@@ -190,21 +190,21 @@ b {
   .swal {
     text-align: center;
     font-family: var(--FuentePrincipal);
-    font-size: var(--ExtraChica);
+    font-size: var(--Chica);
     color: var(--Secundario);
     text-align: center;
     background-color: var(--Fondo);
   }
   .swal-overlay {
     font-family: var(--FuentePrincipal);
-    font-size: var(--ExtraChica);
+    font-size: var(--Chica);
     color: var(--Secundario);
     text-align: center;
     background-color: var(--Fondo);
   }
   .swal-modal .swal-text {
     font-family: var(--FuentePrincipal);
-    font-size: var(--ExtraChica);
+    font-size: var(--Chica);
     color: var(--Secundario);
     text-align: center;
   }
