@@ -307,6 +307,10 @@ b {
     height: auto;
     overflow-x: hidden;
   }
+  .section {
+    width: 100%;
+    height: auto;
+  }
   __card__title {
     font-family: var(--FuentePrincipal);
     font-size: var(--ExtraChica);
