@@ -115,7 +115,7 @@ b {
 .swal {
   text-align: center;
   font-family: var(--FuentePrincipal);
-  font-size: var(--MedianaMediana);
+  font-size: var(--Chica);
   color: var(--Secundario);
   text-align: center;
   background-color: var(--Fondo);
@@ -123,7 +123,7 @@ b {
 
 .swal-overlay {
   font-family: var(--FuentePrincipal);
-  font-size: var(--MedianaMediana);
+  font-size: var(--Chica);
   color: var(--Secundario);
   text-align: center;
   background-color: var(--Principal);
@@ -131,7 +131,7 @@ b {
 
 .swal-modal .swal-text {
   font-family: var(--FuentePrincipal);
-  font-size: var(--MedianaMediana);
+  font-size: var(--Chica);
   color: var(--Secundario);
   text-align: center;
 }
