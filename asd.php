@@ -36,7 +36,20 @@
         <div class="mb-nav-item"> <a href="#Contacto"> <i class="bx bxs-comment-detail"></i> </a></div>
         <div class="mb-nav-item"> <a id="scroll-top" href="#Nosotros"> <i class="bx bxs-to-top"></i> </a></div>
     </div>
-
+    <div class="container/fluid pt-5 mb-5">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="Mensaje__Salud">
+            <div class="section__alerta alert alert-dismissible fade show" role="alert"> <button type="button"
+                    class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="negroo alert-heading">¡Estimado Paciente!</h4>
+                <p class="negro"> Se le recuerda que <b>NO</b> se atenderá a <b>NADIE</b> que no cumpla con los
+                    protocólos de sanidad impuestos por la Secretaría de Salud Pública.</p class="negro">
+                <hr>
+                <p class="negroo mb-0">Para cualquier aclaración no dude en ponerse en contacto con nosotros antes de
+                    que nos honre con su visita.</p>
+            </div>
+        </div>
+    </div>
     <section class="section pt-5 mb-5" id="Nosotros">
         <div class="container">
             <div class="row">
@@ -217,9 +230,9 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- SWEET ALERT -->
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <!----------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+        integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+        crossorigin="anonymous"></script>
     <script src="/Assets/JS/App.js"></script>
     <script>
     // form validation
