@@ -11,6 +11,7 @@
   --Mediana: 2em;
   --ChicaChica: 1.2em;
   --Chica: 1em;
+  --ExtraChica: 0.4rem;
 }
 
 *,
@@ -111,10 +112,28 @@ b {
   color: var(--Incorrecto);
 }
 
-#Mensaje__Salud {
-  background: var(--Fondo);
-  border: var(--Precaucion) solid 0.5em;
-  border-radius: 2em;
+.swal {
+  text-align: center;
+  font-family: var(--FuentePrincipal);
+  font-size: var(--MedianaMediana);
+  color: var(--Secundario);
+  text-align: center;
+  background-color: var(--Fondo);
+}
+
+.swal-overlay {
+  font-family: var(--FuentePrincipal);
+  font-size: var(--MedianaMediana);
+  color: var(--Secundario);
+  text-align: center;
+  background-color: var(--Principal);
+}
+
+.swal-modal .swal-text {
+  font-family: var(--FuentePrincipal);
+  font-size: var(--MedianaMediana);
+  color: var(--Secundario);
+  text-align: center;
 }
 
 .negro {
@@ -169,6 +188,27 @@ b {
 }
 
 @media only screen and (max-width: 600px) {
+  .swal {
+    text-align: center;
+    font-family: var(--FuentePrincipal);
+    font-size: var(--Chica);
+    color: var(--Secundario);
+    text-align: center;
+    background-color: var(--Fondo);
+  }
+  .swal-overlay {
+    font-family: var(--FuentePrincipal);
+    font-size: var(--Chica);
+    color: var(--Secundario);
+    text-align: center;
+    background-color: var(--Fondo);
+  }
+  .swal-modal .swal-text {
+    font-family: var(--FuentePrincipal);
+    font-size: var(--Chica);
+    color: var(--Secundario);
+    text-align: center;
+  }
   .mb-nav {
     bottom: 0;
     display: -webkit-box;
